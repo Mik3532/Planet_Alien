@@ -62,4 +62,21 @@ select apelido, senha from usuario;
    truncate table usuario;
  
  update usuario set apelido = 'mik_games' where id=1;
+
+ create table tabelab (
+	id int primary key auto_increment,
+	tipo varchar (90) not null
+
+);
+
+insert into tabelab (tipo) values ('memorizar');
+insert into tabelab (tipo) values ('compreender');
+insert into tabelab (tipo) values ('aplicar');
+insert into tabelab (tipo) values ('aplicar');
+insert into tabelab (tipo) values ('analisar');
+insert into tabelab (tipo) values ('avaliar');
+insert into tabelab (tipo) values ('criar');
+	
+ 
+ select *from tabelab;
  
